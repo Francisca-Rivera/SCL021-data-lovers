@@ -1,0 +1,407 @@
+
+/*Pagina Inicio*/
+*{
+    margin: 0;
+    padding:0;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+  }
+  h1{ font-family: 'Silkscreen', cursive;font-size: 3.5em;}
+  p{ font-size: 1.25em;}
+  ul{ list-style: none;}
+  li{ font-size: 1.25em;}
+  
+  .encabezado{
+    background: #ffffff;
+    display: flex;
+    height: 20px;
+    align-items: center;
+    text-decoration: none;
+    padding: 45px 0px 45px 0px;
+    font-family: 'Silkscreen', cursive;
+  }
+  header .logo {
+    padding: 12px;
+    font-weight: bold;
+    font-size: 1.6em;
+    margin-left: 23px;
+  }
+  
+  .encabezado nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 53%;
+    transform: translateX(-50%);
+  }
+  .encabezado nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    width: 650px;
+    padding:7px 13px ;
+    letter-spacing: 1px;
+  }
+  .encabezado a{
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    padding: 12px 20px;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    align-items: center;
+  }
+
+  .IconNav{
+    padding: 10px;
+  }
+  a:hover{
+    background-color: #4343;
+  }
+  .encabezado nav ul li ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+  }
+  .encabezado nav ul li ul{
+    position: absolute;
+    background: white;
+    line-break: 1.5;
+    z-index: 1000;
+  }
+  .encabezado nav ul li ul{
+    display: none;
+    position: absolute;
+    width: 140px;
+  }
+  .encabezado nav ul li:hover > ul{
+    display: block;
+  }
+  #hero{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+      height: 90vh;
+      background-image: linear-gradient(
+          0deg,
+          rgba(0,0,0,0.5),
+          rgba(0,0,0,0.5)
+      )
+      ,url("fest.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+  }
+  
+  #hero h1{
+      color: white;
+      
+  }
+  #herox{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("fest.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  footer {
+    background-color: rgb(230, 230, 230);
+  }
+  
+  footer p {
+    margin: 0;
+    padding: 12px;
+    color: rgb(100, 100, 100);
+  }
+  
+  footer .container {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  } 
+  
+  
+  /*Barra buscador*/
+  
+  .box-search fieldset{
+       margin: 0;
+       padding: 0;
+       border: 0;
+       font-size: 100%;
+       font: inherit;
+    border-radius: 30px;
+   }
+  
+  
+  .box-search {
+       float: none;
+       width: 100%;
+       max-width: 453px;
+       margin-bottom: 25px;
+       margin-top: 29px;
+       margin-left: auto;
+       margin-right: auto;
+       display: inline-block;
+       text-align: left;
+     border-radius: 30px;
+   }
+  
+   #buscarform {
+       padding: 0;
+       float: left;
+       clear: both;
+       width: 100%;
+       position: relative;
+     border-radius: 30px;
+   }
+   #buscarform fieldset { float: left }
+  
+   #buscarform .search {
+       font-size: 20px;
+       top: 0px;
+       color: #FFF;
+       background: #fff;
+       position: absolute;
+       right: 0;
+       top: 0;
+     border-radius: 30px;
+       padding: 9px;
+       height: 24px;
+       width: 24px;
+       text-align: center;
+   }
+   #buscarform fieldset { width: 100% }
+  
+   #s {
+       width: 100%;
+       background-color: #fff;
+       float: left;
+       padding: 8px 0;
+       text-indent: 10px;
+       color: #555555;
+     border-radius: 30px;
+       border: 1px solid #fff;
+       box-sizing: border-box;
+       height: 42px;
+   }
+  
+   .button{
+       right: 0;
+       top: 0;
+       padding: 8px 0;
+       float: right;
+       border: 0;
+       width: 40px;
+       height: 42px;
+       cursor: pointer;
+       text-align: center;
+       padding-top: 9px;
+       color: #a4a4a4;
+       transition: all 0.25s linear;
+       background: transparent;
+       z-index: 10;
+       position: absolute;
+       border: 0;
+     border-radius: 30px;
+       vertical-align: top;
+     display: inline-block;
+   }
+  
+/*Elements*/
+
+
+.padre{
+    margin:  auto;
+    width: 900px;
+    background-color: white;
+  
+}
+
+.padre h1{
+    text-align: center;
+    padding: 35px;
+    background-color: #c8edff;
+    font-size: 45px;
+}
+#principal-container{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("fest.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.menu{ /*cuadrado*/
+    display: flex;
+    position: relative;
+    margin-bottom: 130px;
+    margin-left:auto;
+    margin-right:auto;
+    width: 600px;
+    height:550px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.menu li{
+    position: absolute;
+    left:0;
+    list-style: none;
+    transform-origin: 300px;
+    transition: 0.9s;
+    transition-delay: calc(0.1s*var(--1));
+    transform: rotate(0deg) translateX(300px);
+    
+}
+
+.menu.active li{
+    transform: rotate(calc(360deg/ 18* var(--i)));
+    
+
+}
+.menu li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 50%;
+    transform: rotate(calc(360deg/-18*var(--i)));
+    box-shadow: 0 3px 4px rgba(0,0,0,0.15);
+    color: #111;
+    transition: 0.4s;
+    width: 75px;
+    height: 75px;
+}
+
+.menu li a:hover{
+    color: #ff1252;
+}
+
+
+.toggle{ /*Botón central que activa y desactiva los elementos*/
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index:10000; /*Para superponer*/
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 4px rgba(0,0,0,0.15);
+  transition: 1.25s;
+}
+
+.menu.active .toggle{
+    transform: rotate(315deg);
+}
+
+
+ #containerElementos #root{
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap:10px;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    align-items: stretch;
+    margin: 10px;
+    padding-left: 60px;
+    text-transform: capitalize;
+    }
+
+#containerElementos #root .pokemon-card{
+    background-color: #fff;
+    padding:20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    display: none;
+    width: 105px;
+    height: 120px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 30px 20px 20px 30px;
+    font-family: 'Noto Sans JP', sans-serif;;
+    
+       }
+
+/*Aki los llamos? ,los imprimo?*/
+        #containerElementos #root .pokemon-card:nth-child(1),
+        #containerElementos #root .pokemon-card:nth-child(2),
+        #containerElementos #root .pokemon-card:nth-child(3),
+        #containerElementos #root .pokemon-card:nth-child(4),
+        #containerElementos #root .pokemon-card:nth-child(5),
+        #containerElementos #root .pokemon-card:nth-child(6),
+        #containerElementos #root .pokemon-card:nth-child(7),
+        #containerElementos #root .pokemon-card:nth-child(8)
+        #containerElementos #root .pokemon-card:nth-child(9),
+        #containerElementos #root .pokemon-card:nth-child(10){
+  display: inline-block;
+}
+
+.container .box-container .box:hover .pokemon-card img{
+    margin-bottom: 20px;
+    overflow: hidden;
+    height: 250px;
+    border-radius: 5px;
+    transform: scale(1.1); 
+  }
+
+.pokemon-card img{
+  width: 100px;
+  height: 100px;
+  align-items: center;
+}
+
+
+#load-more {
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    padding:13px 30px;
+    border:1px solid #334;
+    color:#334;
+    font-size: 16px;
+    background-color: #fff;
+    cursor: pointer;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  #back{
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    padding:13px 30px;
+    border:1px solid #334;
+    color:#334;
+    font-size: 16px;
+    background-color: #fff;
+    cursor: pointer;
+    align-items: flex-end;
+    justify-content: center;
+    margin-left: 400px;
+  }
+
+  
+ 
