@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head >
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Ghiblipedia</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/jpg" href="resources/SIN FONDO.png"/>
+</head>
+
+<body>
+   <!-- Header -->
+   <header>
+    <div id="headerMainCont"> 
+    <div id="headerLogoCont">  
+    <img id="headerLogo" src="resources/icon.png" alt="Logo ghiblipedia">
+    </div>
+    <div id="pageNameCont">  
+     <h1 id="pageName">Ghiblipedia</h1> 
+    </div>
+    <div id="btnAboutPageCont"> 
+     <button id="btnAboutPage">About</button>
+    </div> 
+    </div>  
+  </header>
+  <!-- cuerpo de la página -->
+  <div class="introduction">
+    <div id="imageIntroduction"> 
+      <img id="introductionImage" src="resources/hayaoMiyasaki.jpg" alt="Imagen de Hayao Miyasaki">
+      </div>
+    <div id="textIntroduction">
+      <h3>Hayao Miyazaki</h3>
+      <p>Hayao Miyazaki (宮崎 駿, Miyazaki Hayao, born January 5, 1941) is a Japanese animator, director, producer,
+        screenwriter, author, and manga artist. A co-founder of Studio Ghibli, he has attained international acclaim as
+        a masterful storyteller and creator of Japanese animated feature films, and is widely regarded as one of the
+        most accomplished filmmakers in the history of animation.</p>
+    </div>
+  </div>
+  <div id="btnShowMovies">
+  <button >Show Movies</button>
+    </div>
+  <!-- Barra de filtros -->
+  <div id="filterCont"> 
+    <select id="filterOrder" class="filterInput">
+      <option selected value = "all"> Sort </option>
+          <option value="0">A-Z</option>
+          <option value="1">Z-A </option>
+          <option value="2">Most Recent</option>
+          <option value="3">Oldest</option>
+          <option value="4">Highest Score</option>
+          <option value="5">Lowest Score</option>
+        </select>
+    <select id="filterByDirector" class="filterInput">
+      <option selected value = "all"> Director </option>
+          <option value="Hayao Miyazaki">Hayao Miyazaki</option>
+          <option value="Gorō Miyazaki">Gorō Miyazaki</option>
+          <option value="Isao Takahata">Isao Takahata</option>
+          <option value="Hiroyuki Morita">Hiroyuki Morita</option>
+          <option value="Hiromasa Yonebayashi">Hiromasa Yonebayashi</option>
+          <option value="Yoshifumi Kondō">Yoshifumi Kondō</option>
+        </select>
+    <select id="filterByProducer" class="filterInput">
+          <option selected value="all">Productor</option>
+          <option value="Isao Takahata">Isao Takahata</option>
+          <option value="Toshio Suzuki">Toshio Suzuki</option>
+          <option value="Toru Hara">Toru Hara</option>
+          <option value="Hayao Miyazaki">Hayao Miyazaki</option>
+          <option value="Yoshiaki Nishimura">Yoshiaki Nishimura</option>
+    </select>
+    <div id="showAllCardsCont"> 
+      <button id="showAllCards">Show all</button>
+    </div>
+  </div>
+    <!--Tarjetas de películas-->
+  <div id="filmsCont">
+  </div>
+  <!-- Pop up info películas -->
+<dialog id="popUp">
+  <div id="filmsDetail">
+  <div id="btnCloseCont">  <button id="btnClosePopUp">Close</button> </div>
+  <div id="detailHead">
+  </div> 
+  <div class ="bodyCategories">
+      <h5 id="btnCharacters">Characters</h5>
+      <h5 id="btnLocations">Locations</h5> 
+      <h5 id="btnVehicles">Vehicles</h5> 
+  </div>
+  <div id="detailBody">
+    </div>
+   <div id="locInfo">
+   </div>
+    <div id="vehInfo">
+   </div>
+  </div>  
+</dialog>     
+        <script src="main.js" type="module"></script>              
+     
+
+
+</body>
+</html>
