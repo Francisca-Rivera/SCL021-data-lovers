@@ -13,7 +13,7 @@ h1{ font-family: 'Silkscreen', cursive;
   height: 20px;
   align-items: center;
   text-decoration: none;
-  padding: 45px 0px 45px 0px;
+  padding: 36px 0px 42px 0px;
   font-family: 'Silkscreen', cursive;
 }
 
@@ -134,6 +134,7 @@ a:hover{
   margin:  auto;
   width: 900px;
   background-color: white;
+  
 }
 
 .padre h1{
@@ -241,6 +242,7 @@ transition: 1.25s;
   text-align: center;
   margin: 30px 20px 20px 30px;
 font-family: 'Noto Sans JP', sans-serif;
+cursor:pointer;
      }
 
 /*Aki los llamos? ,los imprimo?*/
@@ -336,7 +338,7 @@ align-items: center;
 
 .container-footer {
   background-color: rgb(230, 230, 230);
-  height: 80px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -346,47 +348,76 @@ align-items: center;
   font-family: 'Silkscreen', cursive;
 } 
 
+
 #popUp{
 
   width:600px;
-  height: 450px;
+  height: 400px;
   margin: 20% auto;
   position: relative;
 border-radius: 20px;
 text-align: center;
-padding: 25px;
 background-color: #fff;
-font-family: 'Silkscreen', cursive;
- border: 3px dotted black;
-
+ border: 0px transparent;
+ box-shadow: 0px 7px 25px rgba(0,0,0,0.6);
 }
+
+#ventanaModal header{
+padding: 18px;
+background: #68e1ee;
+color: #fff;
+border-radius: 20px 20px 0px 0px;
+height: 32px;
+font-size: 28px;
+align-items: center;
+font-family: 'Silkscreen', cursive;   
+ position: relative;
+}
+
 
 .info{
 font-size: 20px;
 font-family: 'Noto Sans JP', sans-serif;
-text-transform: capitalize;
-
+padding: 5px;
 }
-.info h2{
+
+
+.info h2,h3{
   font-family: 'Silkscreen', cursive;
+  padding: 3px;
+}
+h3{
+  font-size: 15px;
+}
+
+.info p{
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  letter-spacing: 0,5px;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 15px;
+}
+
+.infoType{
+  margin-top: 8px;
 }
 #btnClosePopUp{
-position: relative;
-float:right;
-padding: 5px;
-background-color: gray; 
-border: none;
-color: white;
-padding: 15px 32px;
-text-align: center;
-font-size: 16px;
-border-radius: 100px;
-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-cursor:pointer;
+	position: absolute;
+  height: 21px;
+  width: 21px;
+  border-radius: 100%;
+	top: 24px;
+	right: 13px;
+	background-color:red;
+	font-size: 15px;
+align-items: center;
+  border: 0px transparent;
+  cursor: pointer;
+
 }
 
 
 #btnClosePopUp:hover {
-  box-shadow: #c8edff;
+  box-shadow: inset 300px 0 0 0 yellow;
 }
-
