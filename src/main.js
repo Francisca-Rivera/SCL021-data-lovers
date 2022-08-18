@@ -110,6 +110,8 @@ function createPopUp(dataPokemon) {
     document.getElementById("popUp").open = false;
   }
 
+
+
 let loadMoreBtn = document.querySelector("#load-more");
 let currentItem = 3;
 
