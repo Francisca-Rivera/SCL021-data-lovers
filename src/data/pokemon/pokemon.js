@@ -5323,7 +5323,7 @@ export default {
   },
   {
     "num": "056",
-    "name": "mankey",
+    "name": "monkey",
     "generation": {
       "num": "generation i",
       "name": "kanto"

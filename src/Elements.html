@@ -1,119 +1,110 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Data Lovers</title>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" href="style.css" />
-   
-<link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Silkscreen&display=swap" rel="stylesheet">
   </head>
 
-  <body>  
- 
-    <header class="encabezado">
+  <body>
+    <header class="container-header">
       <nav>
         <p class="logo">Pokepedia</p>
-        <div id="header">
-  
-          <ul class="nav">
-            <li><a href="Inicio.html"> <img class = "IconNav" src="Iconos-nav/Pika-nav.png" style="height: 42px; width:83px"> Home</a></li>
-  
-            <li><a class="pokedex" href=""> <img class = "IconNav" src="Iconos-nav/pokedex-nav.png" style="height: 42px; width:71px;">Pokedex</a>
-              <ul>
-                <li><a class="prueba" href="Elements.html">Types</a></li>
-                <li><a href="">Attack</a></li>
-                <li><a href="">Defense</a></li>
-                <li><a href="">Pokemon by CP</a></li>
-                <li><a href="">Evolution by region</a></li>
-              </ul>
-            </li>
-            <li><a href="">  <img class = "IconNav"src="Iconos-nav/aboutus.png" style="height: 42px; width:42px">About us</a></li>
-            <li><a href=""> <img class = "IconNav"src="Iconos-nav/contactus.png" style="height: 42px; width: 45px;"> Contact</a></li>
-          </ul>
-        </div>
-  
-      </nav>
+     <div id="nav-bar">
+        <ul class="nav">
+        <li><a href="index.html"> <img class = "IconNav" src="Iconos-nav/Pika-nav.png" style="height: 42px; width:83px"> Home</a></li>  
+        <li><a class="pokedex" href=""> <img class = "IconNav" src="Iconos-nav/pokedex-nav.png" style="height: 42px; width:71px;">Pokedex</a>
+        <ul>
+        <li><a href="elements.html">Types</a></li>
+        <li><a href="">Attack</a></li>
+        <li><a href="">Defense</a></li>
+        <li><a href="">Pokemon by CP</a></li>
+        <li><a href="">Evolution by region</a></li>
+        </ul>
+        </li>
+        <li><a href="">  <img class = "IconNav"src="Iconos-nav/aboutus.png" style="height: 42px; width:42px">About us</a></li>
+        <li><a href=""> <img class = "IconNav"src="Iconos-nav/contactus.png" style="height: 42px; width: 45px;">Contact</a></li>
+        </ul>
+     </div>
+    </nav>
     </header>
-    
-  
 
 <section id="principal-container">
- 
   <div class="padre">
-    
     <h1>Pokemon Elements</h1>
-  
+
     <div class="menu">
-      
     <div class="toggle"><img src ="Iconos-nav/Pokebola-toggler.png" style="height: 155px; width: 155px;"></ion-icon></div>
     <li style= "--i:0;"">
 
 <!-- Agregamos Clase y modificamos Id-->
-    <a href="#"><img id="electrico" class=Btn moveTo="types" src="ElementsIcons/rayor.png"></a></li>
+    <a href="#"><img id="electric" class="Btn" value="electric" moveTo="types" src="ElementsIcons/electric.png"></a></li>
     <li style= "--i:1;"">
-    <a href="#"> <img id="agua" class=Btn moveTo="types" src="ElementsIcons/Aguar.png"></a></li>
+    <a href="#"> <img id="water" class="Btn" value= "water" moveTo="types" src="ElementsIcons/water.png"></a></li>
     <li style= "--i:2;"">
-    <a href="#"><img id="fuego" class=Btn moveTo="types" src="ElementsIcons/fuegor.png"></a></li>
+    <a href="#"><img id="fire" class="Btn" value="types" moveTo="types" src="ElementsIcons/fire.png"></a></li>
     <li style= "--i:3;"">
-    <a href="#"><img id="hada" class=Btn moveTo="types" src="ElementsIcons/hadar.png"></a></li>
+    <a href="#"><img id="fairy" class="Btn" moveTo="types" src="ElementsIcons/fairy.png"></a></li>
     <li style= "--i:4;"">
-    <a href="#"><img id="hielo" class=Btn moveTo="types" src="ElementsIcons/hielor.png"></a></li>
+    <a href="#"><img id="ice" class="Btn" moveTo="types" src="ElementsIcons/ice.png"></a></li>
     <li style= "--i:5;"">
-    <a href="#"><img id="hoja" class=Btn moveTo="types" src="ElementsIcons/hojar.png"></a></li>
+    <a href="#"><img id="grass" class="Btn" moveTo="types" src="ElementsIcons/grass.png"></a></li>
     <li style= "--i:6;"">
-    <a href="#"><img id="mente" class=Btn moveTo="types" src="ElementsIcons/menter.png"></a></li>
+    <a href="#"><img id="psychic" class="Btn" moveTo="types" src="ElementsIcons/psychic.png"></a></li>
     <li style= "--i:7;"">
-    <a href="#"><img id="negro" class=Btn moveTo="types" src="ElementsIcons/negror.png"></a></li>
+    <a href="#"><img id="dark" class="Btn" moveTo="types" src="ElementsIcons/dark.png"></a></li>
     <li style= "--i:8;"">
-    <a href="#"><img id="mano" class=Btn moveTo="types" src="ElementsIcons/manor.png"></a></li>
+    <a href="#"><img id="fighting" class="Btn" moveTo="types" src="ElementsIcons/fighting.png"></a></li>
     <li style= "--i:9;"">
-    <a href="#"><img class="veneno" class=Btn moveTo="types" src="ElementsIcons/venenor.png"></a></li>
+    <a href="#"><img id="dragon" class="Btn" moveTo="types" src="ElementsIcons/dragon.png"></a></li>
     <li style= "--i:10;"">
-    <a href="#"><img class="pluma" class=Btn moveTo="types" src="ElementsIcons/plumar.png"></a></li>
+    <a href="#"><img id="flying" class="Btn" moveTo="types" src="ElementsIcons/flying.png"></a></li>
     <li style= "--i:11;"">
-    <a href="#"><img class="tierra" class=Btn moveTo="types" src="ElementsIcons/tierrar.png"></a></li>
+    <a href="#"><img id="rock" class="Btn" moveTo="types" src="ElementsIcons/rock.png"></a></li>
     <li style= "--i:12;"">
-    <a href="#"><img class="salto" class=Btn moveTo="types" src="ElementsIcons/saltor.png"></a></li>
+    <a href="#"><img id="steel" class="Btn" moveTo="types" src="ElementsIcons/steel.png"></a></li>
     <li style= "--i:13;"">
-    <a href="#"><img class="purp" class=Btn moveTo="types" src="ElementsIcons/purpr.png"></a></li>
+    <a href="#"><img id="poison" class="Btn" moveTo="types" src="ElementsIcons/poison.png"></a></li>
     <li style= "--i:14;"">
-    <a href="#"><img class="pala" class=Btn moveTo="types" src="ElementsIcons/palar.png"></a></li>
+    <a href="#"><img id="ground" class="Btn" moveTo="types" src="ElementsIcons/ground.png"></a></li>
     <li style= "--i:15;"">
-    <a href="#"><img class="fantasia" class=Btn moveTo="types" src="ElementsIcons/fantasr.png"></a></li>
+    <a href="#"><img id="ghost" class="Btn" moveTo="types" src="ElementsIcons/ghost.png"></a></li>
     <li style= "--i:16;"">
-    <a href="#"><img class="araña" class=Btn moveTo="types" src="ElementsIcons/arañar.png"></a></li>
+    <a href="#"><img id="bug" class="Btn" moveTo="types" src="ElementsIcons/bug.png"></a></li>
     <li style= "--i:17;"">
-    <a href="#"><img class="estre" class=Btn moveTo="types" src="ElementsIcons/estrer.png"></a></li>
+    <a href="#"><img id="normal" class="Btn" moveTo="types" src="ElementsIcons/normal.png"></a></li>
     <li style= "--i:18;"">
     </div>
+<!--Pop up-->
+<dialog  id="popUp">
+  <div id="ventanaModal">
+   <div id="btnCloseCont">  <button id="btnClosePopUp">Close</button> </div>
+ <div id="contentPopUp"></div>
+</dialog>
 
-   
-   
-<div id="containerElementos">
+<div id="containerElements">
 <div id="types">
-  <h1>Electric</h1>
 </div>
- 
-<div id="root">
+
+<div id="container-pokemoncard">
 </div>
+
 
 <div id="botones">
-<div id="load-more"> load more</div>
-<button onclick="back" id="back" style="display:none;"> back</button>
+<div id="back">Back</div>
+<div id="load-more">Load more</div>
+</div>
+</section>
+    
+<footer>
+ <div class="container-footer">
+    <p>©Copyright 2022</p>
   </div>
-
-
-  </section>
-
-   
-
+</footer>
+    
     <script src="main.js" type="module"></script>
-
-    <footer>
-      <div class="container">
-        <p>©Copyright 2022</p>
-      </div>
-    </footer>
   </body>
 </html>
