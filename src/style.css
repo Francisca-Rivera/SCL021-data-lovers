@@ -17,9 +17,9 @@ h1{ font-family: 'Silkscreen', cursive;
   font-family: 'Silkscreen', cursive;
 }
 
-nav-bar .logo {
-  font-size: 1.6em;
-  margin-left: -55px;
+.logo {
+  font-size: 35px;
+  margin-left: -40px;
 }
 
 /*Menú nav general*/
