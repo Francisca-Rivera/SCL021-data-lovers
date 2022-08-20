@@ -50,7 +50,6 @@ Adicionalmente, para mayor interacción, agregamos una ruleta que despliega los 
 
 ## 4. Prototipo de alta fidelidad
 ![Image text](https://github.com/Ajbravoc/SCL021-data-lovers/blob/descripcion/src/imgReadMe/1.%20Index.png)
-![Image text](https://github.com/Ajbravoc/SCL021-data-lovers/blob/descripcion/src/imgReadMe/2.%20Index.png)
 ![Image text](https://github.com/Ajbravoc/SCL021-data-lovers/blob/descripcion/src/imgReadMe/3.%20Index.png)
 ![Image text](https://github.com/Ajbravoc/SCL021-data-lovers/blob/descripcion/src/imgReadMe/4.%20Index%20menú%20desplegable.png)
 ![Image text](https://github.com/Ajbravoc/SCL021-data-lovers/blob/descripcion/src/imgReadMe/5.%20Menú%20desplegable.png)
