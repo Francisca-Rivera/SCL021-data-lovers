@@ -1,20 +1,21 @@
-*{
+* {
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
-h1{ font-family: 'Silkscreen', cursive;
+h1 {
+  font-family: "Silkscreen", cursive;
   font-size: 3.5em;
 }
 
-.container-header{
+.container-header {
   background: #ffffff;
   display: flex;
   height: 20px;
   align-items: center;
   text-decoration: none;
   padding: 36px 0px 42px 0px;
-  font-family: 'Silkscreen', cursive;
+  font-family: "Silkscreen", cursive;
 }
 
 .logo {
@@ -23,7 +24,7 @@ h1{ font-family: 'Silkscreen', cursive;
 }
 
 /*Menú nav general*/
-.container-header nav{
+.container-header nav {
   display: flex;
   align-items: center;
   position: absolute;
@@ -33,47 +34,47 @@ h1{ font-family: 'Silkscreen', cursive;
 }
 
 /*Menú - nav - botones*/
-.container-header nav ul{
+.container-header nav ul {
   list-style: none;
   display: flex;
   justify-content: end;
   width: 650px;
-  padding:7px 13px ;
+  padding: 7px 13px;
   letter-spacing: 1px;
 }
 
 /*Botones seccionados */
-.container-header a{
+.container-header a {
   font-size: 18px;
   color: #000;
   text-decoration: none;
-  padding: 12px 20px;
+  padding: 8.5px 12px;
   display: flex;
   flex-flow: column wrap;
   align-items: center;
 }
 
-.IconNav{
+.IconNav {
   padding: 10px;
 }
 
-a:hover{
+a:hover {
   background-color: #4343;
 }
 
-.container-header nav ul li ul{
+.container-header nav ul li ul {
   display: none;
   width: 140px;
   position: absolute;
   background: white;
 }
 
-.container-header nav ul li:hover > ul{
+.container-header nav ul li:hover > ul {
   display: block;
 }
 
 /*Container luego del navbar*/
-#container-background{
+#container-background {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,17 +82,17 @@ a:hover{
   flex-direction: column;
   height: 90vh;
   background-image: linear-gradient(
-  0deg,
-  rgba(0,0,0,0.5),
-  rgba(0,0,0,0.5)
-  )
-  ,url("ElementsIcons/fest.jpeg");
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("ElementsIcons/fest.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-#container-background h1{
+#container-background h1 {
   color: white;
   padding-bottom: 40px;
 }
@@ -111,7 +112,7 @@ a:hover{
   outline: none;
   border: 1px solid silver;
   border-radius: 30px;
-  font-family: 'Silkscreen', cursive;
+  font-family: "Silkscreen", cursive;
 }
 
 .btn {
@@ -130,97 +131,98 @@ a:hover{
 }
 
 /*Elements FALTA REVISAR CSS*/
-.padre{
-  margin:  auto;
+.padre {
+  margin: auto;
   width: 900px;
   background-color: white;
-  
 }
 
-.padre h1{
+.padre h1 {
   text-align: center;
   padding: 35px;
   background-color: #c8edff;
   font-size: 45px;
 }
 
-#principal-container{
+#principal-container {
   background-attachment: fixed;
   background-image: linear-gradient(
       0deg,
-      rgba(0,0,0,0.5),
-      rgba(0,0,0,0.5)
-  )
-  ,url("ElementsIcons/fest.jpeg");
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("ElementsIcons/fest.jpeg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
 }
 
-.menu{ /*cuadrado*/
+.menu {
+  /*cuadrado*/
   display: flex;
   position: relative;
   margin-bottom: 130px;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 600px;
-  height:550px;
+  height: 550px;
   justify-content: center;
   align-items: center;
   margin-top: 50px;
 }
 
-.menu li{
+.menu li {
   position: absolute;
-  left:0;
+  left: 0;
   list-style: none;
   transform-origin: 300px;
   transition: 0.9s;
-  transition-delay: calc(0.1s*var(--1));
+  transition-delay: calc(0.1s * var(--1));
   transform: rotate(0deg) translateX(300px);
 }
 
-.menu.active li{
-  transform: rotate(calc(360deg/ 18* var(--i)));
+.menu.active li {
+  transform: rotate(calc(360deg / 18 * var(--i)));
 }
 
-.menu li a{
+.menu li a {
   display: flex;
   justify-content: center;
   align-items: center;
   background: #fff;
   border-radius: 50%;
-  transform: rotate(calc(360deg/-18*var(--i)));
-  box-shadow: 0 3px 4px rgba(0,0,0,0.15);
+  transform: rotate(calc(360deg / -18 * var(--i)));
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
   color: #111;
   transition: 0.4s;
   width: 75px;
   height: 75px;
 }
 
-.menu li a:hover{
+.menu li a:hover {
   color: #ff1252;
 }
 
-.toggle{ /*Botón central que activa y desactiva los elementos*/
-position: absolute;
-display: flex;
-justify-content: center;
-align-items: center;
-z-index: 1; /*Para superponer*/
-border-radius: 50%;
-cursor: pointer;
-box-shadow: 0 0 4px rgba(0,0,0,0.15);
-transition: 1.25s;
+.toggle {
+  /*Botón central que activa y desactiva los elementos*/
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1; /*Para superponer*/
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+  transition: 1.25s;
 }
 
-.menu.active .toggle{
+.menu.active .toggle {
   transform: rotate(315deg);
 }
 
-#containerElements #container-pokemoncard{
+#containerElements #container-pokemoncard {
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap:10px;
+  gap: 10px;
   align-items: center;
   background-color: white;
   justify-content: center;
@@ -228,49 +230,49 @@ transition: 1.25s;
   margin: 10px;
   padding-left: 60px;
   text-transform: capitalize;
-  }
+}
 
-#containerElements #container-pokemoncard .pokemon-card{
+#containerElements #container-pokemoncard .pokemon-card {
   background-color: #fff;
-  padding:20px;
+  padding: 20px;
   border-radius: 5px;
-  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   display: none;
   width: 105px;
   height: 120px;
   border-radius: 20px;
   text-align: center;
   margin: 30px 20px 20px 30px;
-font-family: 'Noto Sans JP', sans-serif;
-cursor:pointer;
-     }
-
-/*Aki los llamos? ,los imprimo?*/
-      #containerElements #container-pokemoncard .pokemon-card:nth-child(1),
-      #containerElements #container-pokemoncard .pokemon-card:nth-child(2),
-      #containerElements #container-pokemoncard .pokemon-card:nth-child(3),
-      #containerElements #container-pokemoncard .pokemon-card:nth-child(4),
-      #containerElements #container-pokemoncard .pokemon-card:nth-child(5),
-      #containerElements #container-pokemoncard .pokemon-card:nth-child(6),
-      #containerElements #container-pokemoncard .pokemon-card:nth-child(7),
-      #containerElements #container-pokemoncard .pokemon-card:nth-child(8)
-      #containerElements #container-pokemoncard .pokemon-card:nth-child(9),
-      #containerElements #container-pokemoncard .pokemon-card:nth-child(10){
-display: inline-block;
+  font-family: "Noto Sans JP", sans-serif;
+  cursor: pointer;
 }
 
-.container .box-container .box:hover .pokemon-card img{
+/*Aki los llamos? ,los imprimo?*/
+#containerElements #container-pokemoncard .pokemon-card:nth-child(1),
+#containerElements #container-pokemoncard .pokemon-card:nth-child(2),
+#containerElements #container-pokemoncard .pokemon-card:nth-child(3),
+#containerElements #container-pokemoncard .pokemon-card:nth-child(4),
+#containerElements #container-pokemoncard .pokemon-card:nth-child(5),
+#containerElements #container-pokemoncard .pokemon-card:nth-child(6),
+#containerElements #container-pokemoncard .pokemon-card:nth-child(7),
+#containerElements #container-pokemoncard .pokemon-card:nth-child(8),
+#containerElements #container-pokemoncard .pokemon-card:nth-child(9),
+#containerElements #container-pokemoncard .pokemon-card:nth-child(10) {
+  display: inline-block;
+}
+
+.container .box-container .box:hover .pokemon-card img {
   margin-bottom: 20px;
   overflow: hidden;
   height: 250px;
   border-radius: 5px;
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
 
-.pokemon-card img{
-width: 100px;
-height: 100px;
-align-items: center;
+.pokemon-card img {
+  width: 100px;
+  height: 100px;
+  align-items: center;
 }
 
 #types {
@@ -278,56 +280,64 @@ align-items: center;
   padding: 35px;
   background-color: #c8edff;
   font-size: 45px;
-  font-family: 'Silkscreen', cursive;
+  font-family: "Silkscreen", cursive;
 }
 
 /*contenedor de botones*/
-#botones{
+#botones {
   display: flex;
- flex-direction: row;
- justify-content: center;
- font-family: 'Silkscreen', cursive;
- flex-direction: row-reverse;
- align-content: stretch;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Silkscreen", cursive;
+  flex-direction: row-reverse;
+  align-content: stretch;
 }
 
-#back{
+#back {
   width: 80px;
- height: 40px;
- line-height: 40px;
- text-align: center;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
   font-size: 15px;
   color: #222;
   border: 1px solid silver;
   border-radius: 30px;
   cursor: pointer;
-  padding:5px;
+  padding: 5px;
   font-size: 18px;
   margin-left: 20px;
 }
 
-#load-more{
+#back:hover {
+  background-color: #4343;
+}
+
+#load-more {
   width: 160px;
   height: 40px;
- line-height: 40px;
- text-align: center;
+  line-height: 40px;
+  text-align: center;
   font-size: 15px;
   color: #222;
   border: 1px solid silver;
   border-radius: 30px;
   cursor: pointer;
-  padding:5px;
+  padding: 5px;
   font-size: 18px;
   margin-bottom: 10px;
 }
 
+#load-more:hover {
+  background-color: #4343;
+}
+
 /*descripcion*/
-.contenedor-imgs{
+.contenedor-imgs {
   width: 100%;
   display: flex;
 }
 
-.contenedor-imgs{
+.contenedor-imgs {
   max-width: 40%;
   height: auto;
   margin: 20px;
@@ -345,78 +355,73 @@ align-items: center;
   margin: 0;
   padding: 12px;
   color: rgb(100, 100, 100);
-  font-family: 'Silkscreen', cursive;
-} 
+  font-family: "Silkscreen", cursive;
+}
 
-
-#popUp{
-
-  width:600px;
+#popUp {
+  width: 600px;
   height: 400px;
   margin: 20% auto;
   position: relative;
-border-radius: 20px;
-text-align: center;
-background-color: #fff;
- border: 0px transparent;
- box-shadow: 0px 7px 25px rgba(0,0,0,0.6);
+  border-radius: 20px;
+  text-align: center;
+  background-color: #fff;
+  border: 0px transparent;
+  box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.6);
 }
 
-#ventanaModal header{
-padding: 18px;
-background: #68e1ee;
-color: #fff;
-border-radius: 20px 20px 0px 0px;
-height: 32px;
-font-size: 28px;
-align-items: center;
-font-family: 'Silkscreen', cursive;   
- position: relative;
+#ventanaModal header {
+  padding: 18px;
+  background: #68e1ee;
+  color: #fff;
+  border-radius: 20px 20px 0px 0px;
+  height: 32px;
+  font-size: 28px;
+  align-items: center;
+  font-family: "Silkscreen", cursive;
+  position: relative;
 }
 
-
-.info{
-font-size: 20px;
-font-family: 'Noto Sans JP', sans-serif;
-padding: 5px;
+.info {
+  font-size: 20px;
+  font-family: "Noto Sans JP", sans-serif;
+  padding: 5px;
 }
 
-
-.info h2,h3{
-  font-family: 'Silkscreen', cursive;
+.info h2,
+h3 {
+  font-family: "Silkscreen", cursive;
   padding: 3px;
 }
-h3{
+h3 {
   font-size: 15px;
 }
 
-.info p{
+.info p {
   padding: 10px;
   margin-top: 10px;
   text-align: center;
-  letter-spacing: 0,5px;
-  font-family: 'Source Code Pro', monospace;
+  letter-spacing: 0, 5px;
+  font-family: "Source Code Pro", monospace;
   font-size: 15px;
 }
 
-.infoType{
+.infoType {
   margin-top: 8px;
 }
-#btnClosePopUp{
-	position: absolute;
+#btnClosePopUp {
+  position: absolute;
   height: 21px;
   width: 21px;
   border-radius: 100%;
-	top: 24px;
-	right: 13px;
-	background-color:red;
-	font-size: 15px;
-align-items: center;
+  top: 24px;
+  right: 13px;
+  background-color: red;
+  font-size: 15px;
+  align-items: center;
   border: 0px transparent;
   cursor: pointer;
-
 }
-
 
 #btnClosePopUp:hover {
   box-shadow: inset 300px 0 0 0 yellow;
