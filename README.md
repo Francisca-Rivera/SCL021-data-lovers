@@ -45,25 +45,24 @@ Adicionalmente, para mayor interacción, agregamos una ruleta que despliega los 
 
 ## 3. Prototipo de baja fidelidad
 
-![](src/imgReadMe/1. PBF types.jpeg
-![](src/imgReadMe/2. PBF index.jpeg
-
+![Image text](https://github.com/Ajbravoc/SCL021-data-lovers/blob/descripcion/src/imgReadMe/2.%20PBF%20index.jpeg)
+![Image text](https://github.com/Ajbravoc/SCL021-data-lovers/blob/descripcion/src/imgReadMe/1.%20PBF%20types.jpeg)
 
 ## 4. Prototipo de alta fidelidad
 ![Image text](https://github.com/Ajbravoc/SCL021-data-lovers/blob/descripcion/src/imgReadMe/1.%20Index.png)
-![](src/imgReadMe/2. Index.png)
-![](src/imgReadMe/3. Index.png)
-![](src/imgReadMe/4. Index menú desplegable.png)
-![](src/imgReadMe/5. Menú desplegable.png)
-![](src/imgReadMe/6. Sección tipo.png)
-![](src/imgReadMe/7. Imagenes por tipo.png)
-![](src/imgReadMe/8. Descripción por pokemon.png)
+![Image text](https://github.com/Ajbravoc/SCL021-data-lovers/blob/descripcion/src/imgReadMe/2.%20Index.png)
+![Image text](https://github.com/Ajbravoc/SCL021-data-lovers/blob/descripcion/src/imgReadMe/3.%20Index.png)
+![Image text](https://github.com/Ajbravoc/SCL021-data-lovers/blob/descripcion/src/imgReadMe/4.%20Index%20menú%20desplegable.png)
+![Image text](https://github.com/Ajbravoc/SCL021-data-lovers/blob/descripcion/src/imgReadMe/5.%20Menú%20desplegable.png)
+![Image text](https://github.com/Ajbravoc/SCL021-data-lovers/blob/descripcion/src/imgReadMe/6.%20Sección%20tipo.png)
+![Image text](https://github.com/Ajbravoc/SCL021-data-lovers/blob/descripcion/src/imgReadMe/7.%20Imagenes%20por%20tipo.png)
+![Image text](https://github.com/Ajbravoc/SCL021-data-lovers/blob/descripcion/src/imgReadMe/8.%20Descripción%20por%20pokemon.png)
 
 ## 5. Test Unitario
 
-![](/src/imgReadMe/1. Test inicial.png)
-![](src/imgReadMe/1.1 Test inicial.png)
-![](src/imgReadMe/2. Test final.png
+![Image text](https://github.com/Ajbravoc/SCL021-data-lovers/blob/descripcion/src/imgReadMe/1.%20Test%20inicial.png)
+![Image text](https://github.com/Ajbravoc/SCL021-data-lovers/blob/descripcion/src/imgReadMe/1.1%20Test%20inicial.png)
+![Image text](https://github.com/Ajbravoc/SCL021-data-lovers/blob/descripcion/src/imgReadMe/2.%20Test%20final.png)
 
 ----
 
