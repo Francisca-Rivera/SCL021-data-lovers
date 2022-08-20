@@ -50,7 +50,7 @@ Adicionalmente, para mayor interacción, agregamos una ruleta que despliega los 
 
 
 ## 4. Prototipo de alta fidelidad
-![](src/imgReadMe/1. Index.png)
+![Image text](https://github.com/Ajbravoc/SCL021-data-lovers/blob/descripcion/src/imgReadMe/1.%20Index.png)
 ![](src/imgReadMe/2. Index.png)
 ![](src/imgReadMe/3. Index.png)
 ![](src/imgReadMe/4. Index menú desplegable.png)
