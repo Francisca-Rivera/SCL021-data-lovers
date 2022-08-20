@@ -1,11 +1,11 @@
 ## Índice
 
-* [1. Proyecto Pokepedia](#1-Proyecto Pokepedia)
-* [2. Historias de Usuario](#2-Historias de Usuario)
-* [3. Prototipo de baja fidelidad ](#3-Prototipo de baja fidelidad)
-* [4. Prototipo de alta fidelidad ](#4-Prototipo de alta fidelidad)
-* [5. Test Unitario](#5-Test Unitario)
-* [6. Producto final](#6-Producto final)
+* 1. Proyecto Pokepedia
+* 2. Historias de Usuario
+* 3. Prototipo de baja fidelidad 
+* 4. Prototipo de alta fidelidad 
+* 5. Test Unitario
+* 6. Producto final
 
 ***
 
@@ -65,7 +65,7 @@ Adicionalmente, para mayor interacción, agregamos una ruleta que despliega los 
 
 ----
 
-## 9. Checklist
+## 6. Checklist
 
 * [ ] Usa VanillaJS.
 * [ ] Pasa linter (`npm run pretest`)
@@ -85,3 +85,6 @@ Adicionalmente, para mayor interacción, agregamos una ruleta que despliega los 
 * [ ] UI: Permite ordenar data por uno o más campos (asc y desc).
 * [ ] UI: Permite filtrar data en base a una condición.
 * [ ] UI: Es responsive.
+
+## Visítanos y vive la experiencia Pokepedia :sparkles:
+[Puedes ingresar aquí](https://ajbravoc.github.io/SCL021-data-lovers/src/index.html) o [aquí](https://francisca-rivera.github.io/SCL021-data-lovers/src/index.html).
