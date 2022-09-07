@@ -91,7 +91,7 @@ function createPopUp(dataPokemon) {
        <p>${dataPokemon.about}</p>
       </div>`;
 }
-//boton open pop up
+//boton close pop up
 document.getElementById("btnClosePopUp").addEventListener("click", closePopUp);
 function closePopUp() {
   console.log("click close");
