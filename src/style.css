@@ -8,60 +8,67 @@ h1 {
   font-size: 3.5em;
 }
 
+/*container padre del nav*/
 .container-header {
   background: #ffffff;
-  display: flex;
-  height: 20px;
-  align-items: center;
-  text-decoration: none;
+  height: 35px;
   padding: 36px 0px 42px 0px;
-  font-family: "Silkscreen", cursive;
 }
 
 .logo {
   font-size: 35px;
-  margin-left: -40px;
-}
-
-/*Menú nav general*/
-.container-header nav {
   display: flex;
   align-items: center;
+  font-family: "Silkscreen", cursive;
+}
+
+/*Container header, nav, logo*/
+.container-header nav {
+  display: flex;
   position: absolute;
-  left: 53%;
+  height: 117px;
+  width: 840px;
+  left: 51%;
   transform: translateX(-50%);
+  margin-top: -40px;
+  justify-content: space-between;
   z-index: 2;
 }
 
-/*Menú - nav - botones*/
+/*Contenedor Iconos nav bar*/
 .container-header nav ul {
   list-style: none;
   display: flex;
-  justify-content: end;
-  width: 650px;
-  padding: 7px 13px;
-  letter-spacing: 1px;
 }
 
-/*Botones seccionados */
-.container-header a {
-  font-size: 18px;
-  color: #000;
+/* Hijo contenedor Iconos nav bar + menu desplegable*/
+.nav li a {
+  align-items: left;
+  padding: 12px 13px;
+  letter-spacing: 1px;
   text-decoration: none;
-  padding: 8.5px 12px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  color: black;
+  font-family: "Silkscreen", cursive;
+  font-size: 18px;
+}
+
+/*Iconos*/
+.IconNav {
+  margin: 10px;
   display: flex;
   flex-flow: column wrap;
   align-items: center;
-}
-
-.IconNav {
-  padding: 10px;
 }
 
 a:hover {
   background-color: #4343;
 }
 
+/*Contenedor del menu desplegable*/
 .container-header nav ul li ul {
   display: none;
   width: 140px;
@@ -69,6 +76,7 @@ a:hover {
   background: white;
 }
 
+/*Aparezca menu desplegable*/
 .container-header nav ul li:hover > ul {
   display: block;
 }
@@ -78,7 +86,6 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
   flex-direction: column;
   height: 90vh;
   background-image: linear-gradient(

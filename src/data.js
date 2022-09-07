@@ -1,9 +1,16 @@
 // estas funciones son de ejemplo
 
-export const example = () => {
-  return 'example';
+export const saludo = (nombre) => {
+  if (nombre === undefined) {
+    return "";
+  }
+  return `hola, ${nombre}`;
 };
 
 export const anotherExample = () => {
-  return 'OMG';
+  return "OMG";
 };
+
+// export const filterByType = (data, selectedType) => {
+//
+// };
