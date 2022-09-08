@@ -411,6 +411,7 @@ h3 {
   letter-spacing: 0, 5px;
   font-family: "Source Code Pro", monospace;
   font-size: 15px;
+  font-weight: bold;
 }
 
 .infoType {
@@ -432,4 +433,10 @@ h3 {
 
 #btnClosePopUp:hover {
   box-shadow: inset 300px 0 0 0 yellow;
+}
+
+#btns-pokemon-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
