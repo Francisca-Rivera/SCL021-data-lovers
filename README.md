@@ -1,3 +1,5 @@
+[![imagen-2023-01-11-191435313.png](https://i.postimg.cc/SsSyTYsS/imagen-2023-01-11-191435313.png)](https://postimg.cc/8FYQs5M9)
+
 ## Índice
 
 * 1. Proyecto Pokepedia
@@ -87,4 +89,4 @@ Adicionalmente, para mayor interacción, agregamos una ruleta que despliega los 
 * [ ] UI: Es responsive.
 
 ## Visítanos y vive la experiencia Pokepedia :sparkles:
-[Puedes ingresar aquí](https://ajbravoc.github.io/SCL021-data-lovers/src/index.html) o [aquí](https://francisca-rivera.github.io/SCL021-data-lovers/src/index.html).
+[Puedes ingresar aquí](https://ajbravoc.github.io/SCL021-data-lovers/src/index.html) o [también aquí](https://francisca-rivera.github.io/SCL021-data-lovers/src/index.html).
